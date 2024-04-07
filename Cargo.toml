@@ -1,7 +1,7 @@
 
 [package]
 name = "my-pwd"
-version = "0.1.1"
+version = "0.1.11"
 edition = "2021"
 description = "A simple password manager"
 license = "MIT"
