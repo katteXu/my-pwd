@@ -1,6 +1,7 @@
 use anyhow::bail;
 use clap::Parser;
-use encryptor::password::generate_password;
+use my_pwd::encryptor::generate_password;
+// use encryptor::password::generate_password;
 
 #[derive(Parser, Debug)]
 #[clap(author, version, about, long_about = None)]
@@ -14,7 +15,6 @@ struct Args {
 
 fn main() -> Result<(), anyhow::Error> {
     let args = Args::parse();
-
     if args.seed.len() < 4 {
         bail!("seed {} must be at least 4 characters long", &args.seed);
     }

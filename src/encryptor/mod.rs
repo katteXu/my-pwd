@@ -1,6 +1,6 @@
+use crate::hash::mersenne_hash;
 use anyhow::{bail, Error, Ok};
 use base64::engine::{general_purpose, Engine};
-use hash::merhash::mersenne_hash;
 
 const CRYPTO:&str = "!pqHr$*+ST1Vst_uv:?wWS%X&Y-/Z01_2.34<ABl9ECo|x#yDE^F{GHEI[]JK>LM#NOBWPQ:RaKU@}cde56R7=8f/9gIhi,jkzmn";
 

@@ -1,4 +1,4 @@
-workspace = { members = ["encryptor", "hash"] }
+
 [package]
 name = "my-pwd"
 version = "0.1.1"
@@ -10,5 +10,5 @@ license = "MIT"
 
 [dependencies]
 anyhow = "1.0.56"
+base64 = "0.22.0"
 clap = { version = "4.5.4", features = ["derive"] }
-encryptor = { path = "./encryptor" }
