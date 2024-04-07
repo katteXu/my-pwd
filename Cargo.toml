@@ -11,4 +11,4 @@ license = "MIT"
 [dependencies]
 anyhow = "1.0.56"
 clap = { version = "4.5.4", features = ["derive"] }
-encryptor = { version = "0.1.0", path = "encryptor" }
+encryptor = { path = "./encryptor" }

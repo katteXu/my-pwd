@@ -8,4 +8,4 @@ edition = "2021"
 [dependencies]
 anyhow = "1.0.56"
 base64 = "0.22.0"
-hash = { version = "0.1.0", path = "../hash" }
+hash = { path = "../hash" }
