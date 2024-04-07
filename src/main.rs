@@ -1,7 +1,6 @@
 use anyhow::bail;
 use clap::Parser;
 use my_pwd::encryptor::generate_password;
-// use encryptor::password::generate_password;
 
 #[derive(Parser, Debug)]
 #[clap(author, version, about, long_about = None)]
