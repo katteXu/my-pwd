@@ -1,4 +1,4 @@
-workspace = { members = ["hash"] }
+workspace = { members = ["encryptor", "hash"] }
 [package]
 name = "my-pwd"
 version = "0.1.0"
@@ -9,3 +9,6 @@ license = "MIT"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+anyhow = "1.0.56"
+clap = { version = "4.5.4", features = ["derive"] }
+encryptor = { path = "encryptor" }
