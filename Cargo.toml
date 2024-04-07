@@ -1,11 +1,13 @@
 
 [package]
 name = "my-pwd"
-version = "0.1.11"
+version = "0.1.12"
 edition = "2021"
 description = "A simple password manager"
 license = "MIT"
 readme = "README.md"
+homepage = "http://fxlogo.com"
+repository = "https://github.com/katteXu/my-pwd.git"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
